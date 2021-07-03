@@ -1,0 +1,18 @@
+steps:
+  - name: test
+    image: node:15.4.0-alpine
+    commands:
+      - npm ci
+      - npm test
+
+  - name: check workspace
+    image: ubuntu
+    commands:
+      - cat result | grep "straight up chillen"
+
+  - name: a new step
+    image: ubuntu
+    commands:
+      - echo "workspace is shared between steps"
+      - ls
+      - echo "this will be triggered via webhooks"
