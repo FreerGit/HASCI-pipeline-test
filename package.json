@@ -1,0 +1,19 @@
+{
+  "name": "hasci-pipeline-test",
+  "version": "1.0.0",
+  "description": "Look at my repo Continuous-Integration-HASCI for the CI-server, this repo is to test end-to-end functionality of the server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FreerGit/HASCI-pipeline-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FreerGit/HASCI-pipeline-test/issues"
+  },
+  "homepage": "https://github.com/FreerGit/HASCI-pipeline-test#readme"
+}
